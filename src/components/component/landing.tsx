@@ -89,7 +89,7 @@ export function Landing() {
                   <Label htmlFor="time" className="text-right">
                     Hora
                   </Label>
-                  <Select className="col-span-3">
+                  <Select>
                     <SelectTrigger>
                       <SelectValue placeholder="Selecciona una hora" />
                     </SelectTrigger>
@@ -160,7 +160,7 @@ export function Landing() {
                         <Label htmlFor="time" className="text-right">
                           Hora
                         </Label>
-                        <Select className="col-span-3">
+                        <Select>
                           <SelectTrigger>
                             <SelectValue placeholder="Selecciona una hora" />
                           </SelectTrigger>
@@ -263,7 +263,7 @@ export function Landing() {
   )
 }
 
-function ScissorsIcon(props) {
+function ScissorsIcon(props:any) {
   return (
     <svg
       {...props}
@@ -287,7 +287,7 @@ function ScissorsIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon(props:any) {
   return (
     <svg
       {...props}
