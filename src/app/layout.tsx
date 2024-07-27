@@ -16,7 +16,7 @@ const fontBody = Manrope({
   variable: '--font-body',
 })
 
-export default function Layout({ children }) {
+export default function Layout({ children }: any) {
   return (
     <html lang="en">
       <body 
